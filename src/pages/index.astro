@@ -12,6 +12,14 @@ import Footer from '../components/Footer.astro';
       <h1 class="text-6xl font-bold tracking-wider text-center mb-8 text-sky-theme-dark dark:text-white uppercase font-jura">
         Wordle
       </h1>
+      <section class="text-center mb-8 max-w-lg mx-auto">
+        <p class="text-lg text-sky-theme-dark dark:text-white">
+           🇨🇺 ¡Bienvenido a Wordle Cubano ! 🤔
+          Adivina la palabra cubana de 5 letras en 6 intentos. <br />
+          💡 Las casillas se volverán 🟩 verde si la letra está en la palabra y en la posición correcta, 
+          🟨 amarilla si está en la palabra pero en otra posición, y ⬜ blanca si no está en la palabra. 
+        </p>
+      </section>
       <GameBoard client:load />
     </div>
     <Footer />
